@@ -109,25 +109,36 @@ nav a{
 }
 .box-container{
     width: 315px;
-    height: 474px;
-    padding-left: 15px;
-    margin-right: 15px;
-   
-    box-shadow: 2px 2px 30px gray;
+   height: 490px;
+    padding-right: 15px;
+    box-shadow: 15px 15px 40px rgba(0, 0, 0, 0.15);
     border-image-slice: 1;
 }
+.box-text{
+    margin-top: 16px;
+   padding-left: 15px;
+    width: 300px;
+    height: 154px;
+  
+}
 .box-container h1{
+    font-weight: 700;
     font-size: 28px;
+    color:#18191F;
 }
 .box-container p{
     font-size: 16px;
-    padding-right: 15px;
+    margin-top: 10px;
+    color: #6C6C6C;
+    
 }
 .player-img-area{
     width: 300px;
     height: 256px;
     padding-top: 15px;
     padding-right: 15px;
+    padding-left: 15px;
+
 
 
 }
