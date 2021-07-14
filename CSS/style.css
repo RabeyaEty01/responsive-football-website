@@ -10,6 +10,12 @@ header{
     display: flex;
     justify-content: center;
 }
+
+.fa-arrow-right{
+    padding-left: 8px;
+    width: 24px;
+    height: 24px;
+}
 main{
     display: flex;
     flex-direction: column;
@@ -139,7 +145,56 @@ nav a{
     padding-right: 15px;
     padding-left: 15px;
 
-
-
 }
     
+/* Highlight part  styles*/
+
+.highlights-container{
+    margin-top: 165px;
+    width:1440px;
+    background-color:#FFFFFF;
+  }
+
+.highlights{
+    display: grid;
+    grid-template-columns: repeat(2,1fr);
+    grid-column-gap: 66px;
+    padding-right: 156px;
+   
+   
+ }
+ .highlights-details{
+     padding-top:59px;
+     padding-left:182px;
+     padding-bottom:493px;
+     width:469px;
+    
+ }
+ .highlight-title{
+     font-size: 48px;
+     color:#0A0826;
+    
+ }
+ 
+ .highlight-text{
+    font-size:16px;
+
+   color: #6C6C6C;
+   
+}
+ 
+ .watchnow-button{
+     background-color: #E02C6D;
+     font-size: 16px;
+     color: #FFFFFF;
+     width: 168px;
+     height: 44px;
+    
+ }
+ .match-img img{
+     width: 567px;
+     height: 427px;
+     padding-bottom: 434px;
+    
+    
+ }
