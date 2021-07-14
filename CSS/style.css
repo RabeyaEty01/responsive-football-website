@@ -198,3 +198,36 @@ nav a{
     
     
  }
+
+/* Footer Section Styles */
+.footer-container{
+    align-items: center;
+    background-color: #FFFFFF;
+  }
+  .footer-contents{
+    display: grid;
+   align-items: center;
+   justify-content: center;
+    padding-bottom:63px ;
+    
+ }
+  .footer-logo img{
+      margin-top: 20px;
+    height: 110px;
+    width: 483.87px;
+
+}
+.copyright{
+    padding-left: 170px;
+}
+.copyright-text{
+    margin-top: 20px;
+    padding-left: -30px;
+}
+.social-icon a{
+    text-decoration: none;
+    height: 32px;
+    width: 170px;
+    padding-left: 25px;
+    padding-bottom: 114px;
+}
