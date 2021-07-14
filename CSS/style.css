@@ -11,10 +11,16 @@ header{
     justify-content: center;
 }
 main{
-    display:flex;
-    justify-content: center;
+    display: flex;
+    flex-direction: column;
+    align-items: center;
 
 }
+.player-container-2{
+    margin-top: 27px;
+    width:1440px;
+    background-color: #FFFFFF;
+  }
 /* headings styles */
 
 nav{
@@ -49,6 +55,7 @@ nav a{
 /* ------------------------
       Top Banner styles
 --------------------------- */
+
 .banners{
    display: flex;
    justify-content: center;
@@ -84,3 +91,44 @@ nav a{
     padding-bottom: 86px;
     padding-right: 140.99px;
 }
+
+/* Players information  */
+
+.player-container{
+    margin-top: 70px;
+    width:1440px;
+    background-color: #FFFFFF;
+  }
+.flexible-container{
+    display:grid;
+    grid-template-columns: repeat(3,1fr);
+    grid-column-gap: 30px;
+    padding-left: 180px;
+    padding-right: 210px;
+    
+}
+.box-container{
+    width: 315px;
+    height: 474px;
+    padding-left: 15px;
+    margin-right: 15px;
+   
+    box-shadow: 2px 2px 30px gray;
+    border-image-slice: 1;
+}
+.box-container h1{
+    font-size: 28px;
+}
+.box-container p{
+    font-size: 16px;
+    padding-right: 15px;
+}
+.player-img-area{
+    width: 300px;
+    height: 256px;
+    padding-top: 15px;
+    padding-right: 15px;
+
+
+}
+    
