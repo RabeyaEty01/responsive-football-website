@@ -1,14 +1,12 @@
 /* Fonts */
 @import url('https://fonts.googleapis.com/css2?family=Poppins:ital,wght@1,500&display=swap');
-/* common styles or utilities*/
+
+/*----------------------
+ common styles or utilities
+ -----------------------*/
 body{
     font-family: 'Poppins', sans-serif;
 }
-header{
-    display: flex;
-    justify-content: center;
-}
-
 .fa-arrow-right{
     padding-left: 8px;
     width: 24px;
@@ -25,8 +23,24 @@ main{
     width:1440px;
     background-color: #FFFFFF;
   }
-/* headings styles  and dropdown menu style*/
+/*--------------------------------------
+headings styles  and dropdown menu style
+----------------------------------------*/
 
+header{
+    display: flex;
+    justify-content: center;
+}
+
+nav{
+    display: flex;
+    justify-content: space-around;
+    background-color: #2D25A0;
+    align-items: center;
+    width: 1440px;
+    padding-top: 42px;
+
+}
 .wrapper{
     background-color: #2D25A0;
     width: 100%;
@@ -43,6 +57,22 @@ main{
 .items h2{
     color: #562EFF;
 }
+nav a{
+    font-family: Poppins;
+    text-decoration: none;
+    color:#FFFFFF;
+    font-size: 16px;
+    margin-right:20px;
+    width: 590px;
+    height: 24px;
+
+}
+.right-menu{
+    position: relative;
+    margin-right: 80px;
+    padding-right: 10px;
+
+}
 .menu-button{
     background-color: skyblue;
     color: #131111;
@@ -51,12 +81,6 @@ main{
     font-weight: 900;
     cursor:pointer;
     border: 1px solid  #278be9;
-}
-.right-menu{
-    position: relative;
-    margin-right: 80px;
-    padding-right: 10px;
-
 }
 .dropdown-menu{
     display: none;
@@ -85,27 +109,7 @@ main{
     background-color: transparent;
 }
 
-nav{
-    display: flex;
-    justify-content: space-around;
-    background-color: #2D25A0;
-    align-items: center;
-    width: 1440px;
-    padding-top: 42px;
-
-}
-nav a{
-    font-family: Poppins;
-    text-decoration: none;
-    color:#FFFFFF;
-    font-size: 16px;
-    margin-right:20px;
-    width: 590px;
-    height: 24px;
-
-}
-
-.login-btn,.watch-button{
+.login-btn{
     background-color: #E02C6D;
     font-size: 16px;
     color: #FFFFFF;
@@ -157,7 +161,9 @@ nav a{
     padding-right: 140.99px;
 }
 
-/* Players information  */
+/*------------------------
+Players information
+--------------------------*/
 
 .player-container{
     margin-top: 70px;
@@ -179,24 +185,7 @@ nav a{
     box-shadow: 15px 15px 40px rgba(0, 0, 0, 0.15);
     border-image-slice: 1;
 }
-.box-text{
-    margin-top: 16px;
-   padding-left: 15px;
-    width: 300px;
-    height: 154px;
-  
-}
-.box-container h1{
-    font-weight: 700;
-    font-size: 28px;
-    color:#18191F;
-}
-.box-container p{
-    font-size: 16px;
-    margin-top: 10px;
-    color: #6C6C6C;
-    
-}
+
 .player-img-area{
     width: 300px;
     height: 256px;
@@ -205,8 +194,28 @@ nav a{
     padding-left: 15px;
 
 }
+.box-text{
+    margin-top: 16px;
+   padding-left: 15px;
+    width: 300px;
+    height: 154px;
+  
+}
+.box-text h1{
+    font-weight: 700;
+    font-size: 28px;
+    color:#18191F;
+}
+.box-text p{
+    font-size: 16px;
+    margin-top: 10px;
+    color: #6C6C6C;
     
-/* Highlight part  styles*/
+}
+    
+/*--------------------
+Highlight part  styles
+----------------------*/
 
 .highlights-container{
     margin-top: 165px;
@@ -243,7 +252,7 @@ nav a{
    
 }
  
- .watchnow-button{
+ .watch-button{
      background-color: #E02C6D;
      font-size: 16px;
      color: #FFFFFF;
@@ -258,58 +267,9 @@ nav a{
     
  }
 
-/* horizontal linebreak */
- hr{
-    border: 1px solid #D1D1D1;
-    margin-bottom: 27px;
-}
-
-/* vedio highlighter  sections styles */
-.video-title{
-    text-align: center;
-    font-size: 64px;
-}
-.video-highlights{
-    display: grid;
-    grid-template-columns: repeat(2,1fr);
-    grid-column-gap: 30px;
-}
-
-/* Footer Section Styles */
-
-.footer-container{
-    align-items: center;
-    background-color: #FFFFFF;
-  }
-  .footer-contents{
-    display: grid;
-   align-items: center;
-   justify-content: center;
-    padding-bottom:63px ;
-    
- }
-  .footer-logo img{
-      margin-top: 20px;
-    height: 110px;
-    width: 483.87px;
-
-}
-.copyright{
-    padding-left: 170px;
-}
-.copyright-text{
-    margin-top: 20px;
-    padding-left: -30px;
-}
-.social-icon a{
-    text-decoration: none;
-    height: 32px;
-    width: 170px;
-    padding-left: 25px;
-    padding-bottom: 114px;
-}
-
-/* album styles */
+/*--------------------
+album styles
+---------------------- */
 
 .Album-title{
     text-align: center;
@@ -369,9 +329,61 @@ hr{
     color: red;
 }
 
+/*--------------------------------
+vedio highlighter  sections styles
+----------------------------------*/
+ 
+
+.video-title{
+    text-align: center;
+    font-size: 64px;
+}
+.video-highlights{
+    display: grid;
+    grid-template-columns: repeat(2,1fr);
+    grid-column-gap: 30px;
+}
+
+/*----------------------
+Footer Section Styles
+------------------------ */
+
+.footer-container{
+    align-items: center;
+    background-color: #FFFFFF;
+  }
+  .footer-contents{
+    display: grid;
+   align-items: center;
+   justify-content: center;
+    padding-bottom:63px ;
+    
+ }
+  .footer-logo img{
+      margin-top: 20px;
+    height: 110px;
+    width: 483.87px;
+
+}
+.copyright{
+    padding-left: 170px;
+}
+
+.social-icon a{
+    text-decoration: none;
+    height: 32px;
+    width: 170px;
+    padding-left: 25px;
+    padding-bottom: 114px;
+}
+.copyright-text{
+    margin-top: 20px;
+    padding-left: -30px;
+}
+
  /* Media Queries */
 
-  /* Mobile devices */
+ 
  
 /* tablet devices */
 
@@ -391,7 +403,7 @@ hr{
       
       grid-template-columns: repeat(1,1fr); 
   }
-  .player, .blogs,.courses{
+  .player, .highlights,.video-highlights{
       flex-direction: column;
   }
   
