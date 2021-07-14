@@ -213,6 +213,7 @@ nav a{
 .highlights-container{
     margin-top: 165px;
     width:1440px;
+    height: 500px;
     background-color:#FFFFFF;
   }
 
@@ -255,8 +256,7 @@ nav a{
  .match-img img{
      width: 567px;
      height: 427px;
-     padding-bottom: 434px;
-    
+     
     
  }
 /* horizontal linebreak */
@@ -299,6 +299,7 @@ nav a{
 }
 
 /* album styles */
+
 .Album-title{
     text-align: center;
     font-size: 64px;
