@@ -3,8 +3,6 @@
 /* common styles or utilities*/
 body{
     font-family: 'Poppins', sans-serif;
-    
-
 }
 header{
     display: flex;
@@ -259,11 +257,24 @@ nav a{
      
     
  }
+
 /* horizontal linebreak */
  hr{
     border: 1px solid #D1D1D1;
     margin-bottom: 27px;
 }
+
+/* vedio highlighter  sections styles */
+.video-title{
+    text-align: center;
+    font-size: 64px;
+}
+.video-highlights{
+    display: grid;
+    grid-template-columns: repeat(2,1fr);
+    grid-column-gap: 30px;
+}
+
 /* Footer Section Styles */
 
 .footer-container{
@@ -356,4 +367,32 @@ hr{
 }
 .fa-clock{
     color: red;
+}
+
+ /* Media Queries */
+
+  /* Mobile devices */
+ 
+/* tablet devices */
+
+@media only screen and (min-width:688px)and (max-width:992px) {
+  .top-banner,.highlights{
+      width:100%;
+    
+      grid-template-rows: repeat(1,1fr);
+      flex-direction: row;
+  }
+  
+  .players, .highlights{
+      
+      grid-template-columns: repeat(1,1fr); 
+  }
+  .player,.highlights{
+      
+      grid-template-columns: repeat(1,1fr); 
+  }
+  .player, .blogs,.courses{
+      flex-direction: column;
+  }
+  
 }
